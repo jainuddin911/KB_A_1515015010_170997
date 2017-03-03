@@ -1,0 +1,15 @@
+predicates 
+nondeterm playing(symbol,symbol) 
+
+
+clauses
+  playing(dota,mort).
+  playing(fighting,kamen).
+  playing(bowling,brood).
+  playing(surfing,buzz).
+  playing(dancing,yurnero).
+  playing(Activity,bold):-
+  playing(Activity,tim).
+
+goal
+  playing(dota,bold).
